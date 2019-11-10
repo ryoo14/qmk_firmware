@@ -62,8 +62,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       S(KC_LBRC), S(KC_1),  KC_LBRC,  S(KC_3),  S(KC_4),  S(KC_5),  KC_EQL,   S(KC_6),  S(KC_QUOTE), S(KC_8), S(KC_9), S(KC_RO),   S(KC_SCLN), KC_TRNS,    \
       S(JP_CIRC), S(KC_Q),  S(KC_W),  S(KC_E),  S(KC_R),  S(KC_T),  S(KC_Y),  S(KC_U),  S(KC_I),     S(KC_O), S(KC_P), S(KC_RBRC), S(KC_BSLS), S(KC_JYEN), \
       KC_LCTL,    S(KC_A),  S(KC_S),  S(KC_D),  S(KC_F),  S(KC_G),  S(KC_H),  S(KC_J),  S(KC_K),     S(KC_L), KC_QUOT, S(KC_2),                KC_ENT,     \
-      KC_TRNS,    S(KC_Z),  S(KC_X),  S(KC_C),  S(KC_V),  S(KC_B),  S(KC_N),  S(KC_M),  KC_COMM,     KC_DOT,           S(KC_SLSH), KC_UP,      KC_DEL,     \
-      KC_LCTL,    KC_LALT,  KC_LGUI,                      KC_SPC,                                    KC_RALT, MO(3),   KC_LEFT,    KC_DOWN,    KC_RIGHT    \
+      KC_TRNS,    S(KC_Z),  S(KC_X),  S(KC_C),  S(KC_V),  S(KC_B),  S(KC_N),  S(KC_M),  S(KC_COMM),  S(KC_DOT),        S(KC_SLSH), KC_UP,      KC_DEL,     \
+      KC_LCTL,    KC_LALT,  S(KC_LGUI),                   KC_SPC,                                    KC_RALT, MO(3),   KC_LEFT,    KC_DOWN,    KC_RIGHT    \
     ),
 
     [_LAYER4] = LAYOUT( /* JP_FN */
