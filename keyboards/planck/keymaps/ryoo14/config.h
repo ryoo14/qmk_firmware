@@ -13,5 +13,7 @@
   See config.h options at https://docs.qmk.fm/#/config_options?id=the-configh-file
 */
 #define ORYX_CONFIGURATOR
-void planck_ez_right_led_level(uinit8_t 0);
-void planck_ez_left_led_level(uinit8_t 0);
+
+#define PLANCK_EZ_LED_LOWER 3
+#define PLANCK_EZ_LED_RAISE 4
+#define PLANCK_EZ_LED_ADJUST 6
