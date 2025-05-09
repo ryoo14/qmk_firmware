@@ -14,7 +14,7 @@
     },
     "matrix_pins": {
         "cols": ["GP0", "GP1", "GP4", "GP5", "GP6", "GP7", "GP8", "GP9", "GP10", "GP11", "GP12", "GP13"],
-        "rows": ["GP14", "GP15", "GP16", "GP17"]
+        "rows": ["GP14", "GP15", "GP26", "GP27"]
     },
     "processor": "RP2040",
     "url": "https://github.com/ryoo14/rhyn_oc47",
@@ -75,7 +75,8 @@
                 {"matrix": [3, 7], "x": 7, "y": 3},
                 {"matrix": [3, 8], "x": 8, "y": 3},
                 {"matrix": [3, 9], "x": 9, "y": 3},
-                {"matrix": [3, 10], "x": 10, "y": 3}
+                {"matrix": [3, 10], "x": 10, "y": 3},
+                {"matrix": [3, 11], "x": 10, "y": 3}
             ]
         }
     }
